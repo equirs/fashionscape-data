@@ -141,7 +141,7 @@
       "name": "heavy item",
       "item_ids": [8871, 19941, 20836, 23108, 23446, 25314, 27422, 27424, 27783],
       "contains": ["partial-matches"],
-      "regex": ["(?adamant |dragon |rune )trophy"],
+      "regex": ["(?:adamant |dragon |rune )trophy"],
       "notes": "lots of random cosmetics that look unwieldy, incl. big trophies"
     },
     {
