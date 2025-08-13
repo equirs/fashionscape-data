@@ -1,0 +1,326 @@
+{
+  "anims": [
+    {
+      "id": 244,
+      "name": "viggora's chainmace",
+      "contains": ["chainmace"]
+    },
+    {
+      "id": 809,
+      "name": "tall sword",
+      "item_ids": [667, 24537, 24539],
+      "contains": ["dragon longsword", "blade of saeldor", "ghrazi rapier", "osmumten's fang", "cudgel"],
+      "regex": ["vesta's(.*) longsword"],
+      "notes": "held at slightly higher angle than default anim"
+    },
+    {
+      "id": 813,
+      "name": "upright weapon",
+      "item_ids": [6526, 10010, 12373, 22978, 26517],
+      "contains": [
+        "spear", "halberd", "crozier", "hasta", "sceptre", "trident", "blowpipe", "partisan", "wand", "mjolnir",
+        "rod of ivandis", "comp bow"
+      ],
+      "regex": ["(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff"],
+      "notes": "holding weapon fully upright, used for most magic staves and very tall weapons"
+    },
+    {
+      "id": 847,
+      "name": "halloween scythe",
+      "item_ids": [1419],
+      "notes": "not to by confused with vitur"
+    },
+    {
+      "id": 1421,
+      "name": "banner",
+      "item_ids": [27580, 27586],
+      "contains": ["rat pole", "flag"],
+      "regex": ["(?<!protest )banner"],
+      "notes": "for the tallest weapon slot items"
+    },
+    {
+      "id": 1461,
+      "name": "sled",
+      "exact": ["sled"]
+    },
+    {
+      "id": 1652,
+      "name": "abyssal bludgeon",
+      "contains": ["abyssal bludgeon"]
+    },
+    {
+      "id": 1662,
+      "name": "granite maul",
+      "contains": ["granite maul"]
+    },
+    {
+      "id": 1713,
+      "name": "zamorakian spear",
+      "item_ids": [11824, 28988],
+      "notes": "two-handed, unlike normal spears"
+    },
+    {
+      "id": 1824,
+      "name": "oddskull",
+      "item_ids": [13195],
+      "notes": "the weird clan wars skull"
+    },
+    {
+      "id": 1832,
+      "name": "rubber chicken",
+      "item_ids": [4566, 20590],
+      "notes": "also the stale baguette"
+    },
+    {
+      "id": 1837,
+      "name": "easter basket",
+      "item_ids": [4565]
+    },
+    {
+      "id": 2061,
+      "name": "verac's flail",
+      "contains": ["verac's flail"],
+      "notes": "there are other flails with different ids"
+    },
+    {
+      "id": 2065,
+      "name": "greataxe",
+      "item_ids": [7449, 20756],
+      "contains": ["dharok's greataxe", "tzhaar-ket-om"],
+      "notes": "held over-shoulder, sort of similar to 2h sword"
+    },
+    {
+      "id": 2074,
+      "name": "karil's crossbow",
+      "contains": ["karil's crossbow"],
+      "notes": "normal crossbows use a different id"
+    },
+    {
+      "id": 2316,
+      "name": "overhead launcher",
+      "item_ids": [6082, 12727],
+      "notes": "shoulder cannons"
+    },
+    {
+      "id": 2561,
+      "name": "2h sword",
+      "item_ids": [7439, 10858, 23282],
+      "contains": ["2h sword"]
+    },
+    {
+      "id": 2911,
+      "name": "twitchy knife",
+      "item_ids": [20779, 21059, 22316, 22719],
+      "notes": "also candy cane"
+    },
+    {
+      "id": 3040,
+      "name": "drunken sway",
+      "item_ids": [20056, 24000],
+      "notes": "ale of the gods, etc"
+    },
+    {
+      "id": 3175,
+      "name": "chinchompa",
+      "item_ids": [7170],
+      "contains": ["chinchompa"],
+      "notes": "also mud pie"
+    },
+    {
+      "id": 3296,
+      "name": "abyssal dagger",
+      "contains": ["abyssal dagger"]
+    },
+    {
+      "id": 3677,
+      "name": "boxing gloves",
+      "contains": ["boxing gloves"]
+    },
+    {
+      "id": 4193,
+      "name": "heavy item",
+      "item_ids": [8871, 19941, 20836, 23108, 23446, 25314, 27422, 27424, 27783],
+      "contains": ["partial-matches"],
+      "regex": ["(?adamant |dragon |rune )trophy"],
+      "notes": "lots of random cosmetics that look unwieldy, incl. big trophies"
+    },
+    {
+      "id": 4504,
+      "name": "nightmare staff",
+      "contains": ["nightmare staff"]
+    },
+    {
+      "id": 4591,
+      "name": "crossbow",
+      "regex": ["(?<!karil's )crossbow"]
+    },
+    {
+      "id": 4646,
+      "name": "cursed banana",
+      "item_ids": [25500]
+    },
+    {
+      "id": 5160,
+      "name": "bird on glove",
+      "item_ids": [10023, 10024, 22816, 22817],
+      "notes": "falcon + cormorant"
+    },
+    {
+      "id": 5246,
+      "name": "salamander",
+      "item_ids": [10149],
+      "contains": ["salamander"],
+      "notes": "and swamp lizard"
+    },
+    {
+      "id": 5254,
+      "name": "noose wand",
+      "item_ids": [10150]
+    },
+    {
+      "id": 5363,
+      "name": "undead chicken",
+      "item_ids": [10487]
+    },
+    {
+      "id": 5869,
+      "name": "barrelchest anchor",
+      "contains": ["barrelchest anchor"]
+    },
+    {
+      "id": 6297,
+      "name": "hand fan",
+      "item_ids": [21354]
+    },
+    {
+      "id": 6604,
+      "name": "magic butterfly net",
+      "item_ids": [11259]
+    },
+    {
+      "id": 6657,
+      "name": "pet rock",
+      "item_ids": [3695]
+    },
+    {
+      "id": 6936,
+      "name": "magic carpet",
+      "item_ids": [5614]
+    },
+    {
+      "id": 7053,
+      "name": "godsword",
+      "item_ids": [11838, 12808, 12809, 20164, 30367],
+      "contains": ["godsword"],
+      "note": "the iconic flowing cape anim"
+    },
+    {
+      "id": 7220,
+      "name": "ballista",
+      "contains": ["ballista"]
+    },
+    {
+      "id": 7271,
+      "name": "clueless scroll",
+      "item_ids": [20249]
+    },
+    {
+      "id": 7508,
+      "name": "dinh's bulwark",
+      "item_ids": [25604],
+      "contains": ["bulwark"],
+      "notes": "and the easter door"
+    },
+    {
+      "id": 7518,
+      "name": "elder maul",
+      "item_ids": [27010],
+      "contains": ["elder maul"],
+      "notes": "and foundry preform"
+    },
+    {
+      "id": 7538,
+      "name": "birthday balloons (2017)",
+      "item_ids": [21209],
+      "notes": "unrelated to 10th birthday balloons"
+    },
+    {
+      "id": 8009,
+      "name": "swinging flail",
+      "item_ids": [22398, 24699],
+      "notes": "ivandis + blisterwood"
+    },
+    {
+      "id": 8057,
+      "name": "scythe of vitur",
+      "contains": ["scythe of vitur"]
+    },
+    {
+      "id": 8208,
+      "name": "golden tench",
+      "item_ids": [22840]
+    },
+    {
+      "id": 8521,
+      "name": "skeleton lantern",
+      "item_ids": [24327]
+    },
+    {
+      "id": 9018,
+      "name": "clan vexillum",
+      "item_ids": [25822],
+      "contains": ["vexillum"],
+      "notes": "also protest banner"
+    },
+    {
+      "id": 9341,
+      "name": "skis",
+      "item_ids": [26649]
+    },
+    {
+      "id": 9460,
+      "name": "colossal blade",
+      "item_ids": [27021, 27871]
+    },
+    {
+      "id": 9494,
+      "name": "tumeken's shadow",
+      "contains": ["tumeken's shadow"]
+    },
+    {
+      "id": 9814,
+      "name": "giant stopwatch",
+      "item_ids": [27414]
+    },
+    {
+      "id": 9847,
+      "name": "mystic cards",
+      "item_ids": [27645]
+    },
+    {
+      "id": 9857,
+      "name": "venator bow",
+      "contains": ["venator bow"]
+    },
+    {
+      "id": 10032,
+      "name": "10th birthday balloons",
+      "item_ids": [27820]
+    },
+    {
+      "id": 10075,
+      "name": "2h axe",
+      "contains": ["felling axe"]
+    },
+    {
+      "id": 10636,
+      "name": "trailblazer torch",
+      "item_ids": [28748]
+    },
+    {
+      "id": 10169,
+      "name": "soulreaper axe",
+      "contains": ["soulreaper axe"]
+    }
+  ]
+}
