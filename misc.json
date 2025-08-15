@@ -1,0 +1,37 @@
+{
+  "bad_item_ids": [
+    945, 1410, 3157, 4498, 4500, 5560, 5614, 5732, 6122, 10023, 10485, 10488, 10810, 10888, 11165,
+    11167, 11279, 16893, 22816, 24265, 25484, 26237, 26239, 28708, 29277, 30872
+  ],
+  "bad_item_ranges": [
+    {
+      "start": 4181,
+      "end": 4235
+    },
+    {
+      "start": 16888,
+      "end": 16893
+    },
+    {
+      "start": 11748,
+      "end": 11769
+    },
+    {
+      "start": 13080,
+      "end": 13101
+    }
+  ],
+  "bad_item_names": [
+    "attacker icon", "defender icon", "collector icon", "healer icon", "red icon", "blue icon"
+  ],
+  "bad_item_contains": [
+    "goblin mail", "teleport scroll", "greegree", "bedsheet", "clockwork suit", "limbs", "dni23", "(broken)", "(l)",
+    "(beta)", "(damaged)"
+  ],
+  "bad_item_regexes": ["^open", "stock$", "^(?:echo )?(?:ahrim|dharok|guthan|karil|torag|verac).*\\d+$"],
+  "disable_anim_weapons": [
+    796, 797, 798, 945, 3893, 4181, 4500, 5060, 5061, 5614, 5732, 6864, 7004, 7118, 7121, 7414, 7682, 7684, 7758, 8857,
+    8986, 8987, 9590, 9665, 9702, 10485, 10509, 10841, 10886, 25710, 25711
+  ],
+  "disable_anim_weapon_shield": [6122, 6123, 10860, 10861]
+}
