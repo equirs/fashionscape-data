@@ -16,12 +16,14 @@
     {
       "id": 813,
       "name": "upright weapon",
-      "item_ids": [6526, 10010, 12373, 22978, 26517],
+      "item_ids": [6526, 7637, 7638, 10010, 12373, 22978, 22516, 26517, 29000],
       "contains": [
-        "spear", "halberd", "crozier", "hasta", "sceptre", "trident", "blowpipe", "partisan", "wand", "mjolnir",
-        "rod of ivandis", "comp bow"
+        "halberd", "crozier", "hasta", "sceptre", "trident", "blowpipe", "partisan", "wand", "mjolnir",
+        "rod of ivandis", "comp bow", "eye of ayak"
       ],
-      "regex": ["(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff"],
+      "regex": [
+        "(?<!hunter's )spear", "(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff(?! of collection)"
+      ],
       "notes": "holding weapon fully upright, used for most magic staves and very tall weapons"
     },
     {
@@ -31,10 +33,16 @@
       "notes": "not to by confused with vitur"
     },
     {
+      "id": 1353,
+      "name": "Games stool",
+      "item_ids": [3893, 25710, 25711],
+      "notes": "Burthorpe + pubs stools"
+    },
+    {
       "id": 1421,
       "name": "banner",
       "item_ids": [27580, 27586],
-      "contains": ["rat pole", "flag"],
+      "contains": ["rat pole", "flag", "staff of collection"],
       "regex": ["(?<!protest )banner"],
       "notes": "for the tallest weapon slot items"
     },
@@ -51,6 +59,7 @@
     {
       "id": 1662,
       "name": "granite maul",
+      "item_ids": [7668],
       "contains": ["granite maul"]
     },
     {
@@ -79,8 +88,9 @@
     {
       "id": 2061,
       "name": "verac's flail",
+      "item_ids": [28792],
       "contains": ["verac's flail"],
-      "notes": "there are other flails with different ids"
+      "notes": "plus bone mace. there are other flails with different ids"
     },
     {
       "id": 2065,
@@ -110,7 +120,7 @@
     {
       "id": 2911,
       "name": "twitchy knife",
-      "item_ids": [20779, 21059, 22316, 22719],
+      "item_ids": [20779, 20781, 21059, 22316, 22719],
       "notes": "also candy cane"
     },
     {
@@ -130,6 +140,11 @@
       "id": 3296,
       "name": "abyssal dagger",
       "contains": ["abyssal dagger"]
+    },
+    {
+      "id": 3594,
+      "name": "pugel stick",
+      "contains": ["pugel stick"]
     },
     {
       "id": 3677,
@@ -168,7 +183,7 @@
     {
       "id": 5246,
       "name": "salamander",
-      "item_ids": [10149],
+      "item_ids": [10149, 30390],
       "contains": ["salamander"],
       "notes": "and swamp lizard"
     },
@@ -200,7 +215,7 @@
     {
       "id": 6657,
       "name": "pet rock",
-      "item_ids": [3695]
+      "item_ids": [3695, 30970]
     },
     {
       "id": 6936,
@@ -321,6 +336,11 @@
       "id": 10169,
       "name": "soulreaper axe",
       "contains": ["soulreaper axe"]
+    },
+    {
+      "id": 11572,
+      "name": "butler's tray",
+      "item_ids": [29912]
     }
   ]
 }
