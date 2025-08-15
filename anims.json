@@ -42,7 +42,7 @@
       "id": 1421,
       "name": "banner",
       "item_ids": [27580, 27586],
-      "contains": ["rat pole", "flag", "staff of collection"],
+      "contains": ["rat pole", "flag"],
       "regex": ["(?<!protest )banner"],
       "notes": "for the tallest weapon slot items"
     },
@@ -341,6 +341,11 @@
       "id": 11572,
       "name": "butler's tray",
       "item_ids": [29912]
+    },
+    {
+      "id": 11942,
+      "name": "staff of collection",
+      "contains": ["staff of collection"]
     }
   ]
 }
