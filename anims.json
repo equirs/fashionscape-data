@@ -19,7 +19,7 @@
       "item_ids": [6526, 7637, 7638, 10010, 12373, 22978, 22516, 26517, 29000],
       "contains": [
         "halberd", "crozier", "hasta", "sceptre", "trident", "blowpipe", "partisan", "wand", "mjolnir",
-        "rod of ivandis", "comp bow", "eye of ayak"
+        "rod of ivandis", "comp bow", "eye of ayak", "belle's folly"
       ],
       "regex": [
         "(?<!hunter's )spear", "(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff(?! of collection)"
@@ -232,7 +232,8 @@
     {
       "id": 7220,
       "name": "ballista",
-      "contains": ["ballista"]
+      "contains": ["ballista"],
+      "item_ids": [33251]
     },
     {
       "id": 7271,
@@ -278,7 +279,7 @@
     {
       "id": 8521,
       "name": "skeleton lantern",
-      "item_ids": [24327]
+      "item_ids": [24327, 31227]
     },
     {
       "id": 9018,
@@ -315,7 +316,8 @@
     {
       "id": 9857,
       "name": "venator bow",
-      "contains": ["venator bow"]
+      "contains": ["venator bow"],
+      "item_ids": [33245]
     },
     {
       "id": 10032,

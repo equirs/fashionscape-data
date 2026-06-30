@@ -28,7 +28,7 @@
     "goblin mail", "teleport scroll", "greegree", "bedsheet", "clockwork suit", "limbs", "dni23", "(broken)", "(l)",
     "(beta)", "(damaged)"
   ],
-  "bad_item_regexes": ["^open", "stock$", "^(?:echo )?(?:ahrim|dharok|guthan|karil|torag|verac).*\\d+$"],
+  "bad_item_regexes": ["^open", "stock$", "^(?:echo )?(?:ahrim|dharok|guthan|karil|torag|verac).*\\d+$", "^crate of.+"],
   "disable_anim_weapons": [
     796, 797, 798, 945, 3893, 4181, 4500, 5060, 5061, 5614, 5732, 6864, 7004, 7118, 7121, 7414, 7682, 7684, 7758, 8857,
     8986, 8987, 9590, 9665, 9702, 10485, 10509, 10841, 10886, 25710, 25711
