@@ -19,7 +19,7 @@
       "item_ids": [6526, 7637, 7638, 10010, 12373, 22978, 22516, 26517, 29000],
       "contains": [
         "halberd", "crozier", "hasta", "sceptre", "trident", "blowpipe", "partisan", "wand", "mjolnir",
-        "rod of ivandis", "comp bow", "eye of ayak", "belle's folly"
+        "rod of ivandis", "comp bow", "eye of ayak", "belle's folly", "shadowflame quadrant"
       ],
       "regex": [
         "(?<!hunter's )spear", "(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff(?! of collection)"
