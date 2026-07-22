@@ -22,7 +22,7 @@
         "rod of ivandis", "comp bow", "eye of ayak", "belle's folly", "shadowflame quadrant"
       ],
       "regex": [
-        "(?<!hunter's )spear", "(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff(?! of collection)"
+        "(?<!hunter's |zamorakian |sun)spear", "(?<!nightmare |guthix |saradomin |zamorak |nutcracker )staff(?! of collection)"
       ],
       "notes": "holding weapon fully upright, used for most magic staves and very tall weapons"
     },
@@ -65,7 +65,7 @@
     {
       "id": 1713,
       "name": "zamorakian spear",
-      "item_ids": [11824, 28988],
+      "item_ids": [11824, 28988, 33722],
       "notes": "two-handed, unlike normal spears"
     },
     {
