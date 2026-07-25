@@ -341,7 +341,12 @@
     },
     {
       "id": 11572,
-      "name": "butler's tray",
+      "name": "butler's tray (f)",
+      "item_ids": [29913]
+    },
+    {
+      "id": 11573,
+      "name": "butler's tray (m)",
       "item_ids": [29912]
     },
     {
