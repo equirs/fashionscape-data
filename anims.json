@@ -353,6 +353,11 @@
       "id": 11942,
       "name": "staff of collection",
       "contains": ["staff of collection"]
+    },
+    {
+      "id": 13696,
+      "name": "christmas dinner",
+      "item_ids": [32934]
     }
   ]
 }
